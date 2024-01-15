@@ -31,4 +31,4 @@ function generateBookList(data) {
 }
 
 // Load JSON data and then generate the book list
-loadJSON('books.json').then(generateBookList);
+loadJSON('public/books.json').then(generateBookList);
