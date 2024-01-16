@@ -8,13 +8,14 @@ function generateBookList(data) {
     // Use a for loop to iterate through the books array
     for (let i = 0; i < books.length; i++) {
         const book = books[i];
-        
+        let yearClass = 'year'
+
         // Append HTML content for each book
         htmlContent += `
-        <div>
+        <div class="book">
         <h2>${book.title}</h2>
         <p><strong>Author:</strong> ${book.author}</p>
-        <p><strong>Year:</strong> ${book.year}</p>
+        <p class="${yearClass}"><strong>Year:</strong> ${book.year}</p>
         </div>
         `;
     }

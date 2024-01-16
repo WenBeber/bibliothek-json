@@ -1,0 +1,19 @@
+.book {
+    padding: 10px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    min-width: max-content;
+    width: 30vw;
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+
+.book:hover {
+    box-shadow: 4px 8px §6px 0 rgb(76, 0, 255);
+}
+.year {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.year.old {
+    color: rgb(242, 242, 242);
+}
